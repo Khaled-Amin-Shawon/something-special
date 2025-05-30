@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Birthday Surprise</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="splash.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="splash-screen">
+      <div class="splash-content">
+        <div class="typing-text" id="typing-text"></div>
+        <div class="countdown">5</div>
+      </div>
+    </div>
+    <div class="particles" id="particles"></div>
+    <div class="container">
+      <h1>Happy Birthday, Babe! <span class="heart">❤️</span></h1>
+
+      <div class="slideshow-container">
+        <div class="slide active">
+          <img src="img.jpg" alt="Birthday Memory 1" />
+          <div class="message-container">
+            <div class="message">
+              তোমার এই বিশেষ দিনে, তোমার জন্য অনেক অনেক শুভেচ্ছা! ❤️
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="img1.jpg" alt="Birthday Memory 2" />
+          <div class="message-container">
+            <div class="message">
+              তোমার জীবনের প্রতিটি মুহূর্ত সুন্দর হোক! 🌟
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="img2.jpg" alt="Birthday Memory 3" />
+          <div class="message-container">
+            <div class="message">তোমার সব স্বপ্ন পূরণ হোক! ✨</div>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="img3.jpg" alt="Birthday Memory 4" />
+          <div class="message-container">
+            <div class="message">তোমার জন্য অনেক অনেক ভালোবাসা! 💖</div>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="img4.jpg" alt="Birthday Memory 5" />
+          <div class="message-container">
+            <div class="message">তোমার জীবনের প্রতিটি দিন আনন্দময় হোক! 🎉</div>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="img6.jpg" alt="Birthday Memory 6" />
+          <div class="message-container">
+            <div class="message">তোমার জন্য অনেক অনেক শুভকামনা! 💫</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="controls">
+        <div class="dot active"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+
+      <div class="letter-section">
+        <div class="letter-container">
+          <h2>Hey Cutie Pie 💖</h2>
+          <div class="letter-content">
+            <p>Happy Birthday, <br />🌟 My Sunshine! 🌟</p>
+            <p>
+              You have no idea how incredibly special you are to me. You're not
+              just my best friend — you're the one who makes my ordinary days
+              feel magical with just your smile.
+            </p>
+            <p>
+              Thank you for being my constant, my comfort, and the most
+              beautiful part of my life. Every laugh we've shared, every memory
+              we've created — I treasure it all with my whole heart.
+            </p>
+            <p>
+              On your special day, I just want you to know how deeply you're
+              loved. You deserve a world full of happiness, love, and dreams
+              come true. And I'll always be right here, cheering you on.
+            </p>
+            <div class="poem">
+              <p>I never wished to lose you,</p>
+              <p>not in distance, not in time.</p>
+              <p>Not in silence, not through change,</p>
+              <p>not even in a different rhyme.</p>
+              <br />
+              <p>You're woven into my every day,</p>
+              <p>a melody in every part.</p>
+              <p>Even if the world should shift,</p>
+              <p>you'll still live inside my heart.</p>
+            </div>
+            <p>
+              Stay just the way you are — beautiful, kind, and wonderfully you.
+              <br />
+              I'm truly lucky to have you in my life. ❤️
+            </p>
+            <p class="signature">Forever Yours,<br />Your Babe 😘</p>
+          </div>
+        </div>
+      </div>
+      <p class="bangla-text" style="color: #fff">
+        No matter where life takes us, you'll always have a special place in my
+        heart. <br />
+        Happy Birthday Sweetheart! <span class="heart">❤️</span>
+      </p>
+
+      <button class="cute-button" onclick="showPopup()">
+        <span class="button-text">Click Me! 💝</span>
+        <span class="button-sparkle">✨</span>
+      </button>
+
+      <div class="popup-overlay" id="popup">
+        <div class="popup-content">
+          <span class="close-popup" onclick="closePopup()">×</span>
+          <h3>তুমি এত কিউট কেন? 💖</h3>
+          <!-- <p>তোমার সাথে কথা বললেই মন ভালো হয়ে যায়</p> -->
+          <div class="popup-hearts">
+            <span>💖</span>
+            <span>💝</span>
+            <span>💗</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
